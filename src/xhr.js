@@ -10,7 +10,8 @@ axios.defaults.baseURL = 'https://iamor.com.cn:3010/'
 // 接口地址
 let apis = {
   // 登录
-  login: 'user/login'
+  login: 'user/login',
+  upload: 'upload/image'
 }
 export default (Vue) => {
   const xhr = (api, data = {}, config = {
